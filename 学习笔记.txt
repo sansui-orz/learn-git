@@ -14,3 +14,24 @@ git checkout 分支名
 git checkout -b 分支名
 则表示为创建并切换分支
 
+3. 放弃本地未add的修改
+git checkout -- 文件名
+
+4. 放弃本地已add的修改
+git reset HEAD 文件名
+或者放弃所有
+git reset HEAD .
+
+5. 放弃已经commit的内容
+git reset --hard HEAD^
+该命令为回退到上一版本的commit
+也可以回退到任意版本
+git reset --hard commit-id
+
+5. commit后进入输入信息界面
+按i进行编辑，编辑完之后按esc退出编辑，再输入大写ZZ退出编辑界面
+
+6. 删除本地分支或者远程分支
+git branch -d 本地分支名
+
+git push origin -d 远程分支名
