@@ -35,3 +35,5 @@ git reset --hard commit-id
 git branch -d 本地分支名
 
 git push origin -d 远程分支名
+
+7. 测试一下
