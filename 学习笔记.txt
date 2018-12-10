@@ -7,3 +7,10 @@
 输入 git commit进行commit
 然后push就可以了
 
+2. 命令行创建并切换分支
+git branch 分支名
+git checkout 分支名
+这俩命令可以合在一起即为
+git checkout -b 分支名
+则表示为创建并切换分支
+
